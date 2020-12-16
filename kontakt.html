@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigar</title>
+    <link rel="stylesheet" href="css/styleKontakt.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+
+    <div class="slikaKontakt">
+        <img src="img/kontakt.jpg">
+    </div>
+
+    <div class="kontejner">
+        <div class="roditelj">
+            <div id="div1">
+                <a href="index.html">Početna</a>
+            </div>
+            <div id="div2">
+                <a href="pneumatici.html">Pneumatici</a>
+            </div>
+            <div id="div3">
+                <a href="oNama.html">O nama</a>
+            </div>
+            <div id="div4">
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="naslov">
+        <h2>U formi ispod unesite svoju poruku</h2>
+    </div>
+
+    <div class="kontakt">
+        <div class="kontakt2">
+            <form>
+                <h2>KONTAKT</h2>
+
+                Ime: <input id="ime" type="text" name="ime">
+                <br>
+                <br> Prezime: <input id="prezime" type="text" name="prezime">
+                <br>
+                <br> E-mail adresa: <input id="email" type="email" name="email">
+                <br>
+                <br>
+                <label>Vaša poruka:</label>
+                <br>
+                <textarea id="textBox" rows="10" cols="40" placeholder="Ovde unesite vaš tekst..."></textarea>
+
+                <br>
+                <input type="checkbox" name="checkbox"> Da li želite da primate e-mejlove <br> sa našim posebnim ponudama? <br>
+                <br> <br>
+                <div class="flex-parent jc-center">
+                    <input type="submit" class="margin-right" name="Potvrda" value="Pošalji" onclick="funkcija()">
+                    <input type="reset" name="Ponistavanje" value="Izbriši">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="footer2">
+        <div class="footer">
+            <div class="footer-klasa">
+                <p id="par">Kontakt:</p>
+                <p>Tel: 010/304 000</p>
+                <p>Fax: 010/313 141</p>
+            </div>
+            <div class="footer-klasa">
+                <p id="par">Adresa:</p>
+                <p>Nikole Pašića 213</p>
+                <p>18300 Pirot</p>
+            </div>
+            <div class="footer-klasa">
+                <p id="par">Napravili:</p>
+                <p>Nebojša Branković</p>
+                <p>Danilo Vorkapić</p>
+                <p>Mihajlo Aćimović</p>
+            </div>
+
+        </div>
+        <p id="par2">Copyright 2020 | All Rights Reserved | Created by <span style="color: rgb(230, 29, 29)">Tigar</span></p>
+    </div>
+
+    <script src="js/scriptKontakt.js"></script>
+</body>
+
+</html>

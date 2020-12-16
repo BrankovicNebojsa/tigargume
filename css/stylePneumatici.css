@@ -1,0 +1,483 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Futura PT", "Futura", sans-serif;
+}
+
+.pocetno {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.pocetno img {
+    display: block;
+}
+
+.kontejner {
+    position: absolute;
+    width: 80%;
+    margin: 1% 10% 0% 10%;
+    top: 0;
+}
+
+.roditelj {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(230, 29, 29);
+    margin: 1% 15% 0 15%;
+    padding: 1.5vh 0 1.5vh 0;
+    font-size: 1.5vw;
+    text-align: center;
+    opacity: 0.85;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.roditelj a {
+    text-decoration: none;
+    color: white;
+    /* border: 10px solid black; */
+}
+
+.roditelj:hover {
+    opacity: 1;
+}
+
+.roditelj a:hover {
+    color: black;
+}
+
+.putnicki div {
+    width: 30%;
+}
+
+.putnicki {
+    background-color: rgb(230, 29, 29);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: space-evenly;
+    align-content: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 99.92%;
+}
+
+#roditelj1 div {
+    margin: 10px;
+    padding: 1px;
+}
+
+#roditelj1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#roditelj1 {
+    flex: 1;
+}
+
+#roditelj2 {
+    flex: 1;
+}
+
+#roditelj3 {
+    flex: 1;
+}
+
+#jedan1 {
+    flex: 1;
+}
+
+#jedan2 {
+    flex: 1;
+}
+
+#jedan3 {
+    flex: 1;
+}
+
+#jedan4 {
+    flex: 1;
+}
+
+#specifikacije {
+    flex: 1;
+}
+
+#opis {
+    flex: 1;
+}
+
+#roditelj2 div {
+    margin: 10px;
+    padding: 1px;
+}
+
+#roditelj2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#dva1 {
+    flex: 1;
+}
+
+#dva2 {
+    flex: 1;
+}
+
+#dva3 {
+    flex: 1;
+}
+
+#dva4 {
+    flex: 1;
+}
+
+#specifikacije2 {
+    flex: 1;
+}
+
+#opis2 {
+    flex: 1;
+}
+
+#roditelj3 div {
+    margin: 5px;
+    padding: 1px;
+}
+
+#roditelj3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#specifikacije3 {
+    flex: 1;
+}
+
+#tri1 {
+    flex: 1;
+}
+
+#tri2 {
+    flex: 1;
+}
+
+#tri3 {
+    flex: 1;
+}
+
+#tri4 {
+    flex: 1;
+}
+
+#opis3 {
+    flex: 1;
+}
+
+li {
+    font-size: 18px;
+}
+
+.terenci div {
+    width: 30%;
+}
+
+#img {
+    border: 1px solid black;
+    color: black;
+}
+
+.terenci {
+    background-color: rgb(230, 29, 29);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: space-evenly;
+    align-content: flex-start;
+    width: 99.92%;
+}
+
+#dzipoviRoditel {
+    flex: 1;
+}
+
+#dzipoviRoditelj2 {
+    flex: 1;
+}
+
+#dzipoviRoditelj3 {
+    flex: 1;
+}
+
+#dzipoviRoditelj div {
+    margin: 5px;
+    padding: 1px;
+}
+
+#dzipoviRoditelj {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#dzip11 {
+    flex: 1;
+}
+
+#dzip12 {
+    flex: 1;
+}
+
+#dzip13 {
+    flex: 1;
+}
+
+#dzipSpec1 {
+    flex: 1;
+}
+
+#dzipOpis {
+    flex: 1;
+}
+
+#dzipoviRoditelj2 div {
+    margin: 1px;
+    padding: 1px;
+}
+
+#dzipoviRoditelj2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#dzip21 {
+    flex: 1;
+}
+
+#dzip22 {
+    flex: 1;
+}
+
+#dzip23 {
+    flex: 1;
+}
+
+#dzip24 {
+    flex: 1;
+}
+
+#dzipSpec2 {
+    flex: 1;
+}
+
+#dzipOpis2 {
+    flex: 1;
+}
+
+#dzipoviRoditelj3 div {
+    margin: 5px;
+    padding: 1px;
+}
+
+#dzipoviRoditelj3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#dzip31 {
+    flex: 1;
+}
+
+#dzip32 {
+    flex: 1;
+}
+
+#dzip33 {
+    flex: 1;
+}
+
+#dzip34 {
+    flex: 1;
+}
+
+#dzipSpec3 {
+    flex: 1;
+}
+
+#dzipOpis3 {
+    flex: 1;
+}
+
+.prodaja {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#formaPrva {
+    flex: 1;
+}
+
+#formaDruga {
+    flex: 1;
+}
+
+#formaPrva {
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#form1 {
+    flex: 1;
+}
+
+#formaDruga {
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 2% 0;
+}
+
+.footer2 {
+    margin-bottom: 0;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer #par {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer2 #par2 {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 1%;
+    background-color: black;
+    color: white;
+}
+
+.dugme {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 2%;
+    margin: 2px;
+}
+
+@media all and (max-width:500px) {
+    h3 {
+        font-size: 20px;
+    }
+    .putnicki {
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width:600px) {
+    .kontejner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .roditelj {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+        border-radius: 0;
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .footer #par {
+        font-size: 15px;
+    }
+    .footer2 #par2 {
+        font-size: 12px;
+    }
+}

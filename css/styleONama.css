@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Futura PT", "Futura", sans-serif;
+}
+
+body {
+    background-color: rgb(230, 29, 29);
+}
+
+.kontejner {
+    position: absolute;
+    width: 80%;
+    margin: 1% 10% 0% 10%;
+    top: 0;
+}
+
+.kontejner {
+    position: absolute;
+    width: 80%;
+    margin: 1% 10% 0% 10%;
+    top: 0;
+}
+
+.roditelj {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(230, 29, 29);
+    margin: 1% 15% 0 15%;
+    padding: 1.5vh 0 1.5vh 0;
+    font-size: 1.5vw;
+    text-align: center;
+    opacity: 0.85;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.roditelj a {
+    text-decoration: none;
+    color: white;
+    /* border: 10px solid black; */
+}
+
+.roditelj:hover {
+    opacity: 1;
+}
+
+.roditelj a:hover {
+    color: black;
+}
+
+.roditelj a:hover {
+    color: black;
+}
+
+.pozadina img {
+    width: 100%;
+}
+
+h1 {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 60px
+}
+
+.osnivanje {
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 50px;
+}
+
+.osnivanje h2 {
+    font-size: 40px;
+}
+
+.uspon {
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 50px;
+}
+
+#vise {
+    display: none;
+}
+
+.GMslika {
+    text-align: right;
+    padding-right: 10%;
+    padding-bottom: 4%;
+}
+
+.GMslika img {
+    width: 20%;
+}
+
+.GM {
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.miselin {
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 50px;
+    padding: 3% 30px;
+}
+
+.uspon h2 {
+    text-align: center;
+    padding: 1% 0 2% 0;
+}
+
+.vizija h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.vizija {
+    background-color: black;
+    color: white;
+    margin: 30px 0px 30px;
+    padding-top: 0;
+}
+
+.vizija p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    height: 0.2vh;
+    background-color: black;
+    border: none;
+}
+
+.video {
+    /* margin-top: 50px;
+    margin-left: 700px;
+    margin-bottom: 150px; */
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#video2 {
+    width: 50%;
+}
+
+.fabrika543 {
+    text-align: center;
+}
+
+.fabrika543 img {
+    width: 50%;
+}
+
+.Hslika {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.Hslika img {
+    width: 50%;
+}
+
+.roditelj1 div {
+    margin: 30px;
+}
+
+.roditelj1 {
+    display: flex;
+}
+
+.roditelj2 div {
+    margin: 30px;
+}
+
+.roditelj2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.roditelj3 div {
+    margin: 30px;
+}
+
+.roditelj3 {
+    display: flex;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 2% 0;
+}
+
+.footer2 {
+    margin-bottom: 0;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer #par {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer2 #par2 {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 1%;
+    background-color: black;
+    color: white;
+}
+
+@media all and (max-width:600px) {
+    .kontejner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .roditelj {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+        border-radius: 0;
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .footer #par {
+        font-size: 15px;
+    }
+    .footer2 #par2 {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .osnivanje p {
+        font-size: 20px;
+    }
+    .osnivanje h2 {
+        font-size: 26px;
+    }
+    .uspon p {
+        font-size: 20px;
+    }
+    .uspon h2 {
+        font-size: 26px;
+    }
+    .vizija h2 {
+        font-size: 26px;
+    }
+    .vizija p {
+        font-size: 20px;
+    }
+    .GM h2 {
+        font-size: 26px;
+    }
+    .GM p {
+        font-size: 20px;
+    }
+    .miselin h2 {
+        font-size: 26px;
+    }
+    .miselin p {
+        font-size: 20px;
+    }
+    .GMslika img {
+        width: 40%;
+    }
+    .fabrika543 img {
+        width: 60%;
+    }
+    .Hslika img {
+        width: 60%;
+    }
+    .video {
+        padding: 3% 0;
+    }
+}
